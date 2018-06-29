@@ -1,5 +1,5 @@
 # Arduino-with-LEDSWITCH-and-TEMPERTURESENSOR
-controlling LED with push-button and reading temperture
+Controlling LED with push-button and reading temperture
 
 Components : 
 
