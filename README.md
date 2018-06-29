@@ -1,13 +1,13 @@
 # Arduino-with-LEDSWITCH-and-TEMPERTURESENSOR
-Controlling LED with push-button and reading temperture
+Controlling LED with push-button and reading temperture .
 
 Components : 
 
-1) Arduino UNO
-2) LED
-3) Push-button
-4) Resistors
-5) LM35 (temperture sensor)
+1) Arduino UNO .
+2) LED .
+3) Push-button .
+4) Resistors .
+5) LM35 (temperture sensor) .
 
 Circuit :
 
@@ -29,9 +29,15 @@ Assumptions :
 
 Push-button is connected to pin 2 , LED is connected to pin 12 and temperture sensor is connected to pin A0 .
 
+
 What I've learned : 
 
 Floating state with arduino , when the common between circuit component isn't the same and this is leading to terrible errors .
+
+Using Millis() function .
+
+Delay problems at run time and why I should avoid using it .
+
 
 Finally I used an online simulator for circuit and code .
 
