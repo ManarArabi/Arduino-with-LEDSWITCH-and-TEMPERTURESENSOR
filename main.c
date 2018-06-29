@@ -29,6 +29,11 @@ void setup()
   	Serial.begin(9600); // to deal with serial and should be called once at the beginning . 
   	//9600 suitable baud rate to deal with computer .
   	//baud rate >> the data rate in bits per second 
+  
+  	// to print temperture first time
+  	currentTemp = readTemperture();
+  	printTemperture (currentTemp) ;
+  
 }
 
 void loop()
